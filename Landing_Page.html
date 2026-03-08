@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cameron Grant — Math & Physics Tutor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: white;
+        }
+
+        /* Header */
+        header {
+            background: #1B3A5C;
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1rem;
+            font-weight: 400;
+            opacity: 0.95;
+        }
+
+        /* Main container */
+        main {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        /* Sections */
+        section {
+            padding: 3rem 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        section:last-of-type {
+            border-bottom: none;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            color: #1a1a1a;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+
+        p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* About section */
+        #about p {
+            margin-bottom: 1.5rem;
+        }
+
+        /* What I Tutor section */
+        .tutor-list {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            font-size: 0.95rem;
+        }
+
+        .tutor-item {
+            line-height: 1.7;
+        }
+
+        .tutor-item strong {
+            font-weight: 600;
+            display: block;
+            margin-bottom: 0.25rem;
+            color: #1a1a1a;
+        }
+
+        /* Rates section */
+        .rates-content {
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+
+        .rates-content p {
+            margin-bottom: 1.5rem;
+        }
+
+        .rate-item {
+            margin: 0.75rem 0;
+        }
+
+        /* Where section */
+        #where p {
+            margin-bottom: 1rem;
+        }
+
+        /* Contact section */
+        #contact {
+            background: #1B3A5C;
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+            margin: 3rem -2rem 0 -2rem;
+        }
+
+        #contact h2 {
+            color: white;
+            margin-bottom: 2rem;
+        }
+
+        .contact-info {
+            font-size: 1rem;
+            line-height: 2;
+        }
+
+        .contact-info p {
+            margin-bottom: 0.75rem;
+            color: white;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #888;
+            font-size: 0.85rem;
+        }
+
+        /* Gold accent (subtle) */
+        .accent {
+            color: #D4A843;
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
+
+            header p {
+                font-size: 0.95rem;
+            }
+
+            h2 {
+                font-size: 1.25rem;
+            }
+
+            main {
+                padding: 0 1.5rem;
+            }
+
+            section {
+                padding: 2rem 0;
+            }
+
+            #contact {
+                margin: 2rem -1.5rem 0 -1.5rem;
+                padding: 2.5rem 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cameron Grant</h1>
+        <p>Math & Physics Tutor</p>
+        <p style="margin-top: 0.5rem; font-size: 0.9rem;">Arvada / Golden / Boulder / Online</p>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About</h2>
+            <p>I'm Cameron. I graduated from Columbia with a math degree (magna cum laude, Phi Beta Kappa) and I'm currently doing my MS in Geophysics at Colorado School of Mines with a 4.0. I've published research, I code in Python regularly, and I've been doing math at a high level for a while.</p>
+            <p>I tutor because I'm good at explaining things clearly and I think a lot of students get stuck not because the material is hard, but because it wasn't explained well the first time. I'm not going to just give you answers — I want you to actually understand what's going on.</p>
+            <p>I also think there's a real problem with students leaning on AI tools to get through homework without learning anything. That works until it doesn't — and it usually stops working around exam time. I teach actual understanding.</p>
+        </section>
+
+        <section id="tutor">
+            <h2>What I Tutor</h2>
+            <div class="tutor-list">
+                <div class="tutor-item">
+                    <strong>SAT & Test Prep</strong>
+                    SAT Math, SAT Reading/Writing, GRE Quantitative, AP Calculus, AP Physics
+                </div>
+                <div class="tutor-item">
+                    <strong>Math</strong>
+                    Algebra through Calculus III, Linear Algebra, Differential Equations, Statistics & Probability. Middle school through college.
+                </div>
+                <div class="tutor-item">
+                    <strong>Physics</strong>
+                    Mechanics, Electricity & Magnetism, Waves. High school through college intro courses.
+                </div>
+                <div class="tutor-item">
+                    <strong>Python</strong>
+                    Introductory programming and data analysis.
+                </div>
+            </div>
+            <p style="margin-top: 1.5rem; color: #555;">I don't tutor chemistry or biology.</p>
+        </section>
+
+        <section id="rates">
+            <h2>Rates</h2>
+            <div class="rates-content">
+                <p>My rates depend on the subject and level:</p>
+                <div class="rate-item"><strong>SAT/GRE prep:</strong> $70/hr online, $85/hr in person</div>
+                <div class="rate-item"><strong>College math or physics:</strong> $65/hr online, $80/hr in person</div>
+                <div class="rate-item"><strong>High school / AP:</strong> $55/hr online, $70/hr in person</div>
+                <div class="rate-item"><strong>Middle school math:</strong> $45/hr online, $60/hr in person</div>
+                <div class="rate-item"><strong>Intro Python:</strong> $65/hr online, $75/hr in person</div>
+                <p style="margin-top: 1.5rem;">In-person rates are higher because I'm driving to you. If you book 5+ sessions I'll knock 10% off, 10+ sessions 15% off.</p>
+                <p>First session is half price so we can see if it's a good fit.</p>
+            </div>
+        </section>
+
+        <section id="where">
+            <h2>Where</h2>
+            <p>I'm based in Arvada. I'll meet in person anywhere in Arvada, Golden, or Boulder. For areas further out (Denver, etc.) I'd need to charge a bit more for the drive. Online sessions work too — I use Zoom.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Reach Out</h2>
+            <div class="contact-info">
+                <p>(914) 299-0552 — text or call</p>
+                <p>grantcameron33@gmail.com</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Cameron Grant • Arvada, CO • 2026</p>
+    </footer>
+</body>
+</html>
